@@ -82,6 +82,7 @@ Backend / Infra / AI / MLOps
   - 로봇 관제 통신을 MQTT over WSS 구조로 전환하고 telemetry cache, stale payload 방어 로직 적용
   - Jenkins 변경 경로 기반 배포, monitoring stack, Grafana 접근 제어 구성
   - FastAPI 기반 AI-IDV 본인확인 서버를 구현하고 SCRFD 얼굴 검출, AdaFace 얼굴 임베딩 비교, PaddleOCR 신분증 OCR 파이프라인을 구성
+  - PaddleOCR 결과 구조화와 OCR 필드 재검증으로 신분증 본인확인 false negative 완화
   - AdaFace checkpoint를 ONNX로 변환하고 FP16/INT8 양자화 및 FP32 대비 임베딩 유사도/latency 비교 스크립트를 정리
   - Spring Boot와 multipart 계약으로 연동하고 OCR/얼굴 대조 결과를 도메인 규칙으로 재검증
 
