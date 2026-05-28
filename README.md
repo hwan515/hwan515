@@ -55,6 +55,7 @@ Backend / Infra / AI / MLOps
 - 저장소: GitHub 미공개
 - 기술 스택: Python, 3D Gaussian Splatting, SMPL, COLMAP, SPZ, GLB, RabbitMQ, MinIO, Docker, GitLab CI/CD, tmux, Linux
 - 주요 기여:
+  - 근거 지표: Jira 담당 118건, 보고 110건, 작성·병합 MR 59건, critical path `586.814s -> 336.180s` 42.7% 감소, mask split/dilation `~159.968s -> ~1.9s` 98.8% 감소
   - 360도 촬영 영상 기반 단일 인체 재구성 파이프라인을 구성하고, 3DGS 렌더링 엔진과 신체 측정 엔진을 분리
   - frame extraction, subject mask, masked COLMAP, 3DGS train, postprocess, SPZ/GLB export, measurement export로 이어지는 stage 기반 파이프라인 설계
   - `preprocess`, `fit`, `measure-export` 단계로 SMPL 기반 신체 측정 엔진을 분리하고 `measurement_report.json` 산출 계약 정리
@@ -73,6 +74,7 @@ Backend / Infra / AI / MLOps
 - 저장소: [github.com/hwan515/waddoc](https://github.com/hwan515/waddoc)
 - 기술 스택: Spring Boot, PostgreSQL, Redis, Kafka, LiveKit, MQTT, Docker Compose, Jenkins, Nginx, Prometheus, Grafana, FastAPI
 - 주요 기여:
+  - 근거 지표: 전체 Jira 432건 중 담당 201건(46.5%), 보고 219건(50.7%), 트러블슈팅/버그 21건, 4-service 구조, MQTT 토픽 7종, Redis Pub/Sub fan-out, Kafka/Outbox
   - 예약, 미션, 진료 세션, 보호자, 관리자, 로봇 관제 도메인을 분리해 MSA 서비스 경계와 통신 흐름 설계
   - 예약, 미션, 진료 세션, 보호자, 관리자, 로봇 운영 흐름을 위한 RESTful API와 도메인 플로우 설계
   - Kafka와 dual Outbox를 활용한 배차/비즈니스 이벤트 처리
@@ -90,6 +92,7 @@ Backend / Infra / AI / MLOps
 - 저장소: [github.com/hwan515/bankbank](https://github.com/hwan515/bankbank)
 - 기술 스택: Django, DRF, Vue, MySQL, ChromaDB, OpenAI API, Redis, WebSocket, Docker, Nginx, Daphne
 - 주요 기여:
+  - 근거 지표: 카드 데이터 수집 -> MySQL 마이그레이션 -> 혜택 정제 -> ChromaDB 동기화 4단계 파이프라인, 15개 혜택 카테고리, Function Calling 도구 5개
   - 예금/적금 상품 저장, 목록 조회, 상세 조회, 관심 상품 가입/해제 기능 구현
   - Card-Gorilla API 기반 카드 데이터 크롤링, SQLite 저장, MySQL 마이그레이션 파이프라인 구성
   - SQL hard filter와 ChromaDB semantic search를 결합한 하이브리드 카드 추천 시스템 구현
@@ -106,6 +109,7 @@ Backend / Infra / AI / MLOps
 - 자동화 스크립트: [github.com/hwan515/kubernetes-Project/tree/main/k8s](https://github.com/hwan515/kubernetes-Project/tree/main/k8s)
 - 기술 스택: OpenStack, Kolla-Ansible, Kubernetes, kubeadm, CRI-O, Flannel, MetalLB, Ingress Nginx, HAProxy, Keepalived, Jenkins, Harbor, Shell, Linux, Terraform, Ansible
 - 주요 기여:
+  - 근거 지표: Kubernetes 자동화 스크립트 5개, Kubernetes/CRI-O v1.30, Calico v3.27.5, kubeadm init/join, Helm, CNI 설치 자동화
   - OpenStack 기반 VM 환경에서 controller / compute 노드 IP convention을 정의하고 Kubernetes 클러스터 구조 설계
   - `kubeadm`, `CRI-O`, `kubelet`, `kubectl` 설치와 커널 모듈, swap, SELinux, sysctl 설정을 쉘 스크립트로 자동화
   - HAProxy와 Keepalived를 이용해 Kubernetes API Server VIP를 구성하고 멀티 컨트롤러 노드 조인 구조 설계
