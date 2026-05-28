@@ -22,7 +22,25 @@ Backend / Infra / AI / MLOps
 - WebRTC, MQTT, SSE, Kafka, Redis Pub/Sub, Outbox 기반 실시간 시스템
 - Docker Compose, Jenkins, Nginx, Prometheus, Grafana를 활용한 배포/운영 환경 구성
 - GPU 추론 서버와 핵심 비즈니스 서버를 분리하는 AI 서비스 연동
+- Notion/Jira 기반 요구사항, API 계약, 트러블슈팅, 배포 의사결정 문서화
+- 개인 NAS와 홈네트워크 기반 실제 서비스 배포/운영 경험
 - BOJ / solved.ac 기반 알고리즘 학습: 그래프 탐색, 백트래킹, 동적 계획법 중심
+
+---
+
+## 📝 Engineering Workflow
+
+- Notion과 Jira를 활용해 요구사항, API 계약, 트러블슈팅, 배포 의사결정, 회고를 기록합니다.
+- 문제 발생 시 원인, 해결 과정, 재발 방지 관점으로 정리하고 팀원이 다시 참고할 수 있는 형태로 남기려고 합니다.
+- 코드뿐 아니라 운영 방식과 의사결정 근거가 남는 개발을 중요하게 생각합니다.
+
+---
+
+## 🏠 Personal Ops Lab
+
+- 개인 NAS와 홈네트워크를 운영하며 실제 서비스를 배포하고 유지보수합니다.
+- 내부망/외부망 접근, reverse proxy, 도메인 연결, TLS, 백업, 접근 제어를 직접 구성하며 운영 경험을 쌓고 있습니다.
+- 배포 이후 로그 확인, 서비스 상태 점검, 장애 대응, 데이터 보존까지 고려하는 운영 습관을 만들고 있습니다.
 
 ---
 
