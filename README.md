@@ -142,72 +142,21 @@ Backend / Infra / AI / MLOps
 
 ---
 
-## 🛠️ Skill Ladder
+## 🛠️ Tech Proficiency
 
-### 1. 🧩 Application Builder
+> Level 1: 학습/실습 · Level 2: 기능 구현 · Level 3: 프로젝트 적용 · Level 4: 설계/운영 · Level 5: 주도/최적화
 
-도메인 기능을 API와 화면으로 구현합니다.
-
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-
-### 2. 🧱 Service Designer
-
-인증, 예약, 미션, 세션 같은 도메인 경계와 MSA 흐름을 설계합니다.
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-111827?style=flat-square&logo=swagger&logoColor=white)
-![MSA](https://img.shields.io/badge/MSA-2563EB?style=flat-square&logo=spring&logoColor=white)
-
-### 3. ⚡ Realtime Integrator
-
-실시간 알림, 로봇 telemetry, 이벤트 기반 비동기 처리 흐름을 구성합니다.
-
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![LiveKit](https://img.shields.io/badge/LiveKit-111827?style=flat-square&logo=webrtc&logoColor=white)
-![Outbox](https://img.shields.io/badge/Outbox-374151?style=flat-square&logo=apachekafka&logoColor=white)
-
-### 4. 🧠 AI Pipeline Engineer
-
-RAG/LLM, OCR/Face IDV, 3DGS/SMPL 파이프라인을 서비스와 연결합니다.
-
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-5F4B8B?style=flat-square&logo=databricks&logoColor=white)
-![SCRFD](https://img.shields.io/badge/SCRFD-0F766E?style=flat-square&logo=opencv&logoColor=white)
-![AdaFace](https://img.shields.io/badge/AdaFace-7C3AED?style=flat-square&logo=onnx&logoColor=white)
-![PaddleOCR](https://img.shields.io/badge/PaddleOCR-1D4ED8?style=flat-square&logo=python&logoColor=white)
-![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-111827?style=flat-square&logo=onnx&logoColor=white)
-![3DGS](https://img.shields.io/badge/3DGS-111827?style=flat-square&logo=threedotjs&logoColor=white)
-![SMPL](https://img.shields.io/badge/SMPL-374151?style=flat-square&logo=python&logoColor=white)
-![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white)
-
-### 5. 🚀 Platform Operator
-
-배포, 관측, 클러스터 자동화, GPU 작업 운영까지 연결합니다.
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![CRI-O](https://img.shields.io/badge/CRI--O-111827?style=flat-square&logo=kubernetes&logoColor=white)
-![Calico](https://img.shields.io/badge/Calico-F58220?style=flat-square&logo=calico&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![GitLab CI/CD](https://img.shields.io/badge/GitLab_CI/CD-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=flat-square&logo=openstack&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+| Stack | Level | Evidence |
+| --- | --- | --- |
+| ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) | Lv.2 `★★☆☆☆` | Waddoc MSA, REST API, Kafka/Outbox, 인증/세션 도메인 |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/DRF-A30000?style=flat-square&logo=django&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) | Lv.2 `★★☆☆☆` | BankBank, Waddoc AI-IDV, MoM GPU worker/API |
+| ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Lv.1 `★☆☆☆☆` | 프로젝트 UI, 관리자/사용자 화면, API 연동 |
+| ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) | Lv.2 `★★☆☆☆` | 도메인 모델링, 캐시, Pub/Sub fan-out, 데이터 마이그레이션 |
+| ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white) ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white) ![LiveKit](https://img.shields.io/badge/LiveKit-111827?style=flat-square&logo=webrtc&logoColor=white) | Lv.2 `★★☆☆☆` | Waddoc 실시간 알림/로봇 관제, MoM 비동기 작업 파이프라인 |
+| ![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-5F4B8B?style=flat-square&logo=databricks&logoColor=white) ![PaddleOCR](https://img.shields.io/badge/PaddleOCR-1D4ED8?style=flat-square&logo=python&logoColor=white) ![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-111827?style=flat-square&logo=onnx&logoColor=white) | Lv.2 `★★☆☆☆` | RAG/LLM, OCR/Face IDV, AdaFace ONNX 양자화 |
+| ![3DGS](https://img.shields.io/badge/3DGS-111827?style=flat-square&logo=threedotjs&logoColor=white) ![SMPL](https://img.shields.io/badge/SMPL-374151?style=flat-square&logo=python&logoColor=white) ![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white) | Lv.2 `★★☆☆☆` | MoM 3DGS/SMPL 후처리, measurement pipeline, artifact flow |
+| ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) | Lv.2 `★★☆☆☆` | CI/CD, monitoring stack, 배포/운영 품질 게이트 |
+| ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![CRI-O](https://img.shields.io/badge/CRI--O-111827?style=flat-square&logo=kubernetes&logoColor=white) ![Calico](https://img.shields.io/badge/Calico-F58220?style=flat-square&logo=calico&logoColor=white) ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white) ![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=flat-square&logo=openstack&logoColor=white) ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white) | Lv.3 `★★★☆☆` | Metanet Kubernetes 클러스터 구축, kubeadm/Helm/CNI 자동화 |
 
 ---
 
