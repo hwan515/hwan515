@@ -193,8 +193,6 @@ RAG/LLM, 3DGS, 신체 측정 파이프라인, 벡터 검색, 객체 저장소 �
   <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=jgh4529" alt="solved.ac profile badge for jgh4529" />
 </a>
 
-![mazandi profile](https://mazandi.herokuapp.com/api?handle=jgh4529&theme=warm)
-
 ---
 
 ## 🔗 GitHub
