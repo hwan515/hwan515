@@ -119,7 +119,7 @@ Backend / Infra / AI / MLOps
 
 | 기간 | 과정 | 주요 내용 |
 | --- | --- | --- |
-| 2025.07 - 현재 | SSAFY 14기 | Django/DRF, Vue, Spring Boot, RAG/LLM, ChromaDB, 3DGS, SMPL, RabbitMQ, Kafka, MinIO, Docker, GitLab CI/CD, 실시간 통신, GPU worker/MLOps |
+| 2025.07 - 2026.06 | SSAFY 14기 | Django/DRF, Vue, Spring Boot, RAG/LLM, ChromaDB, 3DGS, SMPL, RabbitMQ, Kafka, MinIO, Docker, GitLab CI/CD, 실시간 통신, GPU worker/MLOps |
 | 2024.12 - 2025.02 | Metanet Cloud Engineer | OpenStack, Kubernetes, Azure, Terraform, Ansible, GitLab, Jenkins, Harbor, Argo CD |
 | 2023.08 - 2024.02 | Shinsegae I&C Cloud Engineer | Flask, React, AWS, Docker, Kubernetes, GitHub Actions, CodeDeploy, React Native, Terraform |
 
