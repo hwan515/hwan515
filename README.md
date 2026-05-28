@@ -22,7 +22,6 @@ Backend / Infra / AI / MLOps
 - WebRTC, MQTT, SSE, Kafka, Redis Pub/Sub, Outbox 기반 실시간 시스템
 - Docker Compose, Jenkins, Nginx, Prometheus, Grafana를 활용한 배포/운영 환경 구성
 - GPU 추론 서버와 핵심 비즈니스 서버를 분리하는 AI 서비스 연동
-- Notion/Jira 기반 요구사항, API 계약, 트러블슈팅, 배포 의사결정 문서화
 - 개인 NAS와 홈네트워크 기반 실제 서비스 배포/운영 경험
 - BOJ / solved.ac 기반 알고리즘 학습: 그래프 탐색, 백트래킹, 동적 계획법 중심
 
@@ -63,7 +62,6 @@ Backend / Infra / AI / MLOps
   - GPU 서버에서 Docker 대신 tmux worker로 장시간 3DGS job을 실행하고 stage timing, run manifest, stdout/stderr log를 남기도록 운영화
   - mask reprojection 기반 sparse filtering, postprocess Gaussian pruning, contour refine, dark artifact cleanup을 적용해 신체 주변 배경/노이즈 point를 제거
   - postprocess 결과를 PLY/SPZ viewer artifact와 연결하고 source geometry, training camera, measurement coordinate는 훼손하지 않도록 export-only 보정 원칙 적용
-  - critical path를 `586.814s -> 336.180s`로 줄이고, mask split/dilation 병목을 `~159.968s -> ~1.9s` 수준으로 개선
 
 ### Waddoc
 
@@ -75,16 +73,14 @@ Backend / Infra / AI / MLOps
 - 기술 스택: Spring Boot, PostgreSQL, Redis, Kafka, LiveKit, MQTT, Docker Compose, Jenkins, Nginx, Prometheus, Grafana, FastAPI, SCRFD, AdaFace, PaddleOCR, ONNX Runtime
 - 주요 기여:
   - 근거 지표: 전체 Jira 432건 중 담당 201건(46.5%), 보고 219건(50.7%), 트러블슈팅/버그 21건, 4-service 구조, MQTT 토픽 7종, Redis Pub/Sub fan-out, Kafka/Outbox
-  - 예약, 미션, 진료 세션, 보호자, 관리자, 로봇 관제 도메인을 분리해 MSA 서비스 경계와 통신 흐름 설계
-  - 예약, 미션, 진료 세션, 보호자, 관리자, 로봇 운영 흐름을 위한 RESTful API와 도메인 플로우 설계
+  - 예약, 미션, 진료 세션, 보호자, 관리자, 로봇 관제 도메인을 분리하고 MSA 서비스 경계와 REST API/도메인 플로우 설계
   - Kafka와 dual Outbox를 활용한 배차/비즈니스 이벤트 처리
   - Redis Pub/Sub fan-out 기반 scale-out SSE 알림 구조 구현
   - 로봇 관제 통신을 MQTT over WSS 구조로 전환하고 telemetry cache, stale payload 방어 로직 적용
   - Jenkins 변경 경로 기반 배포, monitoring stack, Grafana 접근 제어 구성
   - FastAPI 기반 AI-IDV 본인확인 서버를 구현하고 SCRFD 얼굴 검출, AdaFace 얼굴 임베딩 비교, PaddleOCR 신분증 OCR 파이프라인을 구성
-  - PaddleOCR 결과 구조화와 OCR 필드 재검증으로 신분증 본인확인 false negative 완화
+  - Spring Boot multipart 계약으로 AI-IDV 서버를 연동하고 PaddleOCR 결과 구조화와 OCR/얼굴 대조 재검증으로 false negative 완화
   - AdaFace checkpoint를 ONNX로 변환하고 FP16/INT8 양자화 및 FP32 대비 임베딩 유사도/latency 비교 스크립트를 정리
-  - Spring Boot와 multipart 계약으로 연동하고 OCR/얼굴 대조 결과를 도메인 규칙으로 재검증
 
 ### BankBank
 
