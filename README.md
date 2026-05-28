@@ -70,9 +70,9 @@ Backend / Infra / AI / MLOps
 > 전화로 예약하면 집 앞까지 찾아오는 방문형 비대면 원격 진료 자율주행 로봇 서비스
 
 - 기간: 2026.03.09 - 2026.04.18
-- 역할: 백엔드, MSA 설계, 인프라, 모니터링, AI 본인확인 연동
+- 역할: 백엔드, MSA 설계, 인프라, 모니터링, AI-IDV 본인확인 서버 구현/연동
 - 저장소: [github.com/hwan515/waddoc](https://github.com/hwan515/waddoc)
-- 기술 스택: Spring Boot, PostgreSQL, Redis, Kafka, LiveKit, MQTT, Docker Compose, Jenkins, Nginx, Prometheus, Grafana, FastAPI, SCRFD, AdaFace, PaddleOCR
+- 기술 스택: Spring Boot, PostgreSQL, Redis, Kafka, LiveKit, MQTT, Docker Compose, Jenkins, Nginx, Prometheus, Grafana, FastAPI, SCRFD, AdaFace, PaddleOCR, ONNX Runtime
 - 주요 기여:
   - 근거 지표: 전체 Jira 432건 중 담당 201건(46.5%), 보고 219건(50.7%), 트러블슈팅/버그 21건, 4-service 구조, MQTT 토픽 7종, Redis Pub/Sub fan-out, Kafka/Outbox
   - 예약, 미션, 진료 세션, 보호자, 관리자, 로봇 관제 도메인을 분리해 MSA 서비스 경계와 통신 흐름 설계
@@ -81,7 +81,9 @@ Backend / Infra / AI / MLOps
   - Redis Pub/Sub fan-out 기반 scale-out SSE 알림 구조 구현
   - 로봇 관제 통신을 MQTT over WSS 구조로 전환하고 telemetry cache, stale payload 방어 로직 적용
   - Jenkins 변경 경로 기반 배포, monitoring stack, Grafana 접근 제어 구성
-  - FastAPI 기반 AI-IDV 서버(SCRFD, AdaFace, PaddleOCR)와 Spring Boot를 multipart로 연동하고 OCR/얼굴 대조 결과를 도메인 규칙으로 재검증
+  - FastAPI 기반 AI-IDV 본인확인 서버를 구현하고 SCRFD 얼굴 검출, AdaFace 얼굴 임베딩 비교, PaddleOCR 신분증 OCR 파이프라인을 구성
+  - AdaFace checkpoint를 ONNX로 변환하고 FP16/INT8 양자화 및 FP32 대비 임베딩 유사도/latency 비교 스크립트를 정리
+  - Spring Boot와 multipart 계약으로 연동하고 OCR/얼굴 대조 결과를 도메인 규칙으로 재검증
 
 ### BankBank
 
